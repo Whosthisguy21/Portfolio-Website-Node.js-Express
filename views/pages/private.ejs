@@ -1,0 +1,35 @@
+<%- include("../shared/head") %>
+
+<div class="container">
+    <main role="main" class="pb-3">
+
+        <div class="jumbotron text-center">
+            <h1 class="display-4 mt-5">PRIVATE TAB</h1>
+            <p class="lead mb-5">Here in this website, you can discover Kurt's projects and skills.</p>
+            <hr class="my-4">
+        </div>
+        
+        <div class="row align-items-md-stretch mt-5 mb-5">
+            <div class="col-md-6">
+                <div class="h-100 p-5 text-dark bg-light rounded-3">
+                    <h2>About Us</h2>
+                    <p>We are EpicBytes, a group devoted to providing a fluid experience in gaming! Learn more about our story here!</p>
+                    <a class="btn btn-outline-dark" role="button" asp-area="" asp-controller="Services" asp-action="">About Us</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="h-100 p-5 bg-white border rounded-3">
+                    <h2>Join Events</h2>
+                    <p>Dive into the world of gaming with our exciting lineup of events! Whether you're a casual player or a hardcore gamer, our events are designed to bring together enthusiasts from all corners of the gaming community. From high-stakes tournaments and immersive gaming expos to insightful panels and exclusive game previews, there's something for everyone.</p>
+                    <p>Connect with fellow gamers, discover the latest trends in the industry, and showcase your skills. Our events offer a mix of individual and team-based competitions, catering to both solo players and collaborative squads. Gain insights from industry experts, participate in hands-on demos, and get the chance to meet your favorite gaming influencers.</p>
+                    <p>Explore our full list of upcoming gaming events to find the perfect ones for you. Don't miss out on these epic experiences. Click the button below to see all our events and secure your spot today!</p>
+                    <a class="btn btn-outline-dark" role="button" asp-area="" asp-controller="Events" asp-action="">View All Events</a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</div>
+
+<%- include("../shared/footer") %>
+<%- include("../shared/scripts") %>
